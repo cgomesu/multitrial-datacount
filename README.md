@@ -7,7 +7,9 @@ Jeferson Mayer and Carlos Gomes
 
 
 # Related articles
-Gomes, C. F. A., Brainerd, C. J., Nakamura, K., & Reyna, V. F. (2014). Markovian interpretations of dual retrieval processes. Journal of Mathematical Psychology, 59, 50-64.
+[Gomes, C. F. A., Brainerd, C. J., Nakamura, K., & Reyna, V. F. (2014). Markovian interpretations of dual retrieval processes. Journal of Mathematical Psychology, 59, 50-64.](https://www.sciencedirect.com/science/article/abs/pii/S0022249613000618)
+
+[Gomes, C. F., Brainerd, C. J., & Stein, L. M. (2013). Effects of emotional valence and arousal on recollective and nonrecollective recall. Journal of Experimental Psychology: Learning, Memory, and Cognition, 39, 663-677.](https://psycnet.apa.org/record/2012-13130-001)
 
 
 # Usage
