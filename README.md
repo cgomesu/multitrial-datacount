@@ -15,10 +15,10 @@ Jeferson Mayer and Carlos Gomes
 # Usage
 The VBA macro is part of the data-count.xls MS Excel file.  You need to enable the use of macros, as they're disabled by default (for security reasons). The file has two spreadsheets: DATA, results.  The DATA spreadsheet contains the data from your multi-trial experiment, which should have the following structure:
 
-1. The first row always contains NAMES OF VARIABLES.
-2. The DATA RANGE begins at the SECOND row.
+1. The FIRST ROW always contains NAMES OF VARIABLES.
+2. The DATA RANGE begins at the SECOND ROW.
 3. The DATA RANGE is CONTIGUOUS, that is, there are neither empty rows nor empty columns before or within the data range. 
-4. The first column always contains an ID NUMBER for one or more subjects.
+4. The FIRST COLUMN always contains an ID NUMBER for one or more subjects.
 5. Names for each STIMULI used in the experiment must have the following format: [one or more uppercase letters][lowercase letter 't'][one or more digits]. For example: ARANHt1, meaning the word ARANHA (spider, in portuguese) on trial 1; then ARANHt2 for trial 2; ARANHt3; ARANHt4; etc. It is fundamental to follow this pattern because the program will search for it. 
 6. Only NAMES OF STIMULI can have the format specified on the 5th item.
 7. The DATA spreadsheet must be called 'DATA'. 
