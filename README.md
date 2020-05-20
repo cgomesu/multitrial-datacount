@@ -1,5 +1,5 @@
 # Description
-A VBA macro for MS Excel that counts patterns of correct responses (C) and errors (E) across multiple trials (e.g., CCC, CCE, CEC, ..., EEE). It was initially developed as a tool to help with the data analysis of multi-trial memory experiments in which one or more subjects provide boolean-type responses (yes/now, correct/error) for multiple items across multiple tests. In such designs, each item will generate a pattern of C-E responses across tests. This VBA macro counts all such patterns across subjects and items. For more information, see related articles.
+A VBA macro for MS Excel that counts patterns of correct responses (C) and errors (E) across multiple trials (e.g., CCC, CCE, CEC, ..., EEE). It was initially developed as a tool to help with the data analysis of multi-trial memory experiments in which one or more subjects provide boolean-type responses (yes/no, correct/error) for multiple items across multiple tests. In such designs, each item will generate a pattern of C-E responses across tests. This VBA macro counts all such patterns across subjects and items. For more information, see related articles.
 
 
 # Authorship
