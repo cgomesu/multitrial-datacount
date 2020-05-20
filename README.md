@@ -1,5 +1,5 @@
 # Description
-A VBA macro for MS Excel that counts patterns of correct response (C) and errors (E) across multiple trials. It was initially developed as a tool to help with data analysis of multi-trial memory experiments in which one or more subjects provide boolean-type responses (yes/now, correct/error) for multiple items across multiple tests. In such designs, each item will generate a pattern of C-E responses across tests. This VBA macro counts all such patterns across subjects and items. For more information, see related articles.
+A VBA macro for MS Excel that counts patterns of correct responses (C) and errors (E) across multiple trials (e.g., CCC, CCE, CEC, ..., EEE). It was initially developed as a tool to help with the data analysis of multi-trial memory experiments in which one or more subjects provide boolean-type responses (yes/now, correct/error) for multiple items across multiple tests. In such designs, each item will generate a pattern of C-E responses across tests. This VBA macro counts all such patterns across subjects and items. For more information, see related articles.
 
 
 # Authorship
@@ -13,7 +13,7 @@ Jeferson Mayer and Carlos Gomes
 
 
 # Usage
-The VBA macro is part of the data-count.xls MS Excel file.  You need to enable the use of macros (they're disabled by default, for security reasons). The file has two spreadsheets: DATA, results.  The DATA spreadsheet contains the data from your multi-trial experiment, which should have the following structure:
+The VBA macro is part of the data-count.xls MS Excel file.  You need to enable the use of macros, as they're disabled by default (for security reasons). The file has two spreadsheets: DATA, results.  The DATA spreadsheet contains the data from your multi-trial experiment, which should have the following structure:
 
 1. The first row always contains NAMES OF VARIABLES.
 2. The DATA RANGE begins at the SECOND row.
