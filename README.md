@@ -13,15 +13,15 @@ Gomes, C. F. A., Brainerd, C. J., Nakamura, K., & Reyna, V. F. (2014). Markovian
 # Usage
 The VBA macro is part of the data-count.xls MS Excel file.  You need to enable the use of macros (they're disabled by default, for security reasons). The file has two spreadsheets: DATA, results.  The DATA spreadsheet contains the data from your multi-trial experiment, which should have the following structure:
 
-1. The first row ALWAYS contain names of variables.
-2. The data range begins at the SECOND row.
-3. The data range is CONTIGUOUS, that is, there are neither empty rows nor empty columns before or within the data range. So make sure that you've checked the data before running the macro.
-4. The first column ALWAYS contains a number (id).
-5. Names for each STIMULI used in the experiment MUST have the following format: [one or more uppercase letters][lowercase letter 't'][one or more digits]. For example: ARANHt1, meaning the word ARANHA (spider) on trial 1; then ARANHt2 for trial 2; ARANHt3; ARANHt4; etc. It is fundamental to follow this pattern because the program will search for it.
-6. Only names of stimulus can have the format specified on the 5th item.
-7. The data spreadsheet must be called 'DATA'. Otherwise the macro won't run.
+1. The first row always contains NAMES OF VARIABLES.
+2. The DATA RANGE begins at the SECOND row.
+3. The DATA RANGE is CONTIGUOUS, that is, there are neither empty rows nor empty columns before or within the data range. 
+4. The first column always contains an ID NUMBER for one or more subjects.
+5. Names for each STIMULI used in the experiment must have the following format: [one or more uppercase letters][lowercase letter 't'][one or more digits]. For example: ARANHt1, meaning the word ARANHA (spider, in portuguese) on trial 1; then ARANHt2 for trial 2; ARANHt3; ARANHt4; etc. It is fundamental to follow this pattern because the program will search for it. 
+6. Only NAMES OF STIMULI can have the format specified on the 5th item.
+7. The DATA spreadsheet must be called 'DATA'. 
 
-The results spreadsheet contains instructions and the output of the macro. That is, after adding your data to the DATA spreadsheet, manually run the macro or press the 'Compute Frequencies' button to obtain count data patterns across trials.
+The results spreadsheet contains instructions and the output of the macro. That is, after adding your data to the DATA spreadsheet, manually run the macro or press the 'Compute Frequencies' button to obtain count data patterns across trials.  The data count will show up in a pop-up window and in the results spreadsheet.
 
 
 # VB code
